@@ -36,7 +36,7 @@ const navItems = [
 const stats = [
   { value: "7+", label: "Years in Elastic architecture" },
   { value: "2-3 TB per day", label: "Production ingestion at scale" },
-  { value: "30+ nodes", label: "Large clusters stabilized" },
+  { value: "200+ nodes", label: "Large clusters stabilized" },
   { value: "50+", label: "Enterprise transformations delivered" },
 ];
 
@@ -283,7 +283,7 @@ export default function Home() {
               <div className="relative aspect-[4/4.7] overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/30 via-transparent to-transparent" />
                 <Image
-                  src="/bhavesh-photo.png"
+                  src="./bhavesh-photo.png"
                   alt="Bhavesh Sharma"
                   fill
                   priority
